@@ -1,0 +1,89 @@
+/* Genel stil */
+body {
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    color: white;
+    background-color: rgba(68, 125, 73, 0.5); /* Black with 50% opacity */
+    backdrop-filter: blur(10px); /* Apply blur to background */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#accounts-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#current-account-container, #current-account-container2 {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    backdrop-filter: blur(10px); /* Apply blur to background */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    padding: 10px;
+    border-radius: 16px;
+    width: 45%;
+}
+
+#vs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+#vs-container h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#buttons button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+#higher-btn{
+    background-color: green;
+}
+
+#lower-btn{
+    background-color: red;
+}
+
+#buttons button:hover {
+    background-color: #0056b3;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+

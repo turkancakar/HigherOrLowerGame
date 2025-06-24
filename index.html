@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher or Lower Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Higher or Lower</h1>
+        <p>Hangi hesabın daha fazla takipçisi var?</p>
+        
+        <div id="accounts-container">
+            <!-- İlk hesap -->
+            <div id="current-account-container">
+                <p>İsim: <span id="ilkHesapName"></span></p>
+                <p>Açıklama: <span id="ilkHesapAcıklama"></span></p>
+                <p>Ülke: <span id="ilkHesapUlke"></span></p>
+                <p>Takipçi: <span id="ilkHesapTakipci"></span></p>
+            </div>
+
+            <!-- VS Arası -->
+            <div id="vs-container">
+                <h2>VS</h2>
+            </div>
+
+            <!-- İkinci hesap -->
+            <div id="current-account-container2">
+                <p>İsim: <span id="ikiciHesapName2"></span></p>
+                <p>Açıklama: <span id="ikiciHesapAcıklama2"></span></p>
+                <p>Ülke: <span id="ikiciHesapUlke2"></span></p>
+                <p>Takipçi: <span id="ikiciHesapTakipci2"></span></p>
+            </div>
+        </div>
+
+        <!-- Butonlar -->
+        <div id="buttons">
+            <button id="higher-btn">Higher</button>
+            <button id="lower-btn">Lower</button>
+        </div>
+
+        <!-- Skor -->
+        <div id="score">
+            <p>Skor : <span id="score-count">0</span></p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
